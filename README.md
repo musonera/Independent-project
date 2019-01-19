@@ -18,3 +18,6 @@ JavaScript.
 musosoaimee@gmail.com
 ## link 
 
+## licence and copyright
+MIT licence copyright 2019
+
