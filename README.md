@@ -13,7 +13,8 @@ MUSONERA Marie Aimee
 ## Technologies used.
 HTML.
 CSS.
-JavaScript.
+Javascript.
+
 ## Contact information.
 musosoaimee@gmail.com
 ## link 
