@@ -1,63 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.min.map"></script>
-    <script src="js/scripts.js"></script>
-    <title>Address book</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Bank Account</h1>
-
-      <div class="row">
-
-        <div class="col-md-6">
-          <h2>Add a contact:</h2>
-          <form id="new-contact">
-            <div class="form-group">
-              <label for="new-first-name"> First name</label>
-              <input type="text" class="form-control" id="new-first-name">
-            </div>
-            <div class="form-group">
-              <label for="new-last-name">Last name</label>
-              <input type="text" class="form-control" id="new-last-name">
-            </div>
-
-            <div id="new-addresses">
-              <div class="new-address">
-                <div class="form-group">
-                  <label for="bank account">Bank account</label>
-                  <input type="text" class="form-control bank- account ">
-                </div>
-                <div class="form-group">
-                  <label for="initial bank account balance">initial bank account balance</label>
-                  <input type="text" class="form-control initial bank account balance ">
-                </div>
-                <div class="form-group">
-                  <label for="deposit-money"> Deposit-money</label>
-                  <input type="text" class="form-control new-county">
-                </div>
-                <div class="form-group">
-                    <label for="withdraw-money ">Withdraw money</label>
-                    <input type="text" class="form">
-
-                </div>
-              </div>
-            </div>
-
-            <span class="btn btn-primary" id="add-address">Another address</span>
-
-            <button type="submit" class="btn">Add</button>
-          </form>
-
-          <h2>Contacts:</h2>
-          <ul id="contacts">
-
-          </ul>
-        </div>
-      </div>
-    </div>
-  </body>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+ <link href="css/styles.css" rel="stylesheet" type="text/css">
+ <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+ <script src="js/script.js"></script>
+ <title>BANK ACCOUNT</title>
+</head>
+<body>
+   <div class="container">
+       <h1>AGASEKE Bank</h1>
+       <hr/>
+       <div class="row">
+           <div class="col-md-6">
+               <form id="create">
+                 <div class="form-group">
+                   <label for="name">Name of New Account</label>
+                   <input id="name" type="text" required>
+                 </div>
+                 <div class="form-group">
+                    <label for="name">ID</label>
+                    <input id="id" type="text" required>
+                  </div>
+                 <div class="form-group">
+                   <label for="initial">Initial Deposit</label>
+                   <input id="initial" type="number" required>
+                 </div>
+                 <button type="check" class="btn btn-info">check</button>
+               </form>
+           </div>
+           <div class="col-md-6">
+             <form id="manage">
+               <div class="form-group">
+                 <label for="deposit">Deposit</label>
+                 <input id="deposit" type="number" required>
+               </div>
+               <button type="check" class="btn btn-info">check</button>
+             </form>
+             <form id="withdraw">
+               <div class="form-group">
+                 <label for="withdraw">Withdraw</label>
+                 <input id="withdraw" type="number" required>
+               </div>
+               <button type="check" class="btn btn-info">check</button>
+             </form>
+         </div>
+       </div>
+       <hr/>
+       <div class="account">
+         <div class="row">
+           <h3>Your Account Balance is:</h2>
+           <h1 class="balance"></h1>
+         </div>
+       </div>
+   </div>
+</body>
 </html>
