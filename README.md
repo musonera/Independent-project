@@ -19,5 +19,5 @@ musosoaimee@gmail.com
 ## link 
 https://musonera.github.io/Independent-project/
 ## licence and copyright
-MIT licence copyright 2019
+MIT licence copyright 2019.
 
